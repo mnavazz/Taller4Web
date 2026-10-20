@@ -63,7 +63,6 @@ function App() {
                   <p><strong>Proyectos realizados:</strong> {integrante.proyectos}</p>
                 </div>
               ))}
-              <Alert color="success">{informacion.mensaje}</Alert>
             </CardBody>
           </Card>
         ) : (
